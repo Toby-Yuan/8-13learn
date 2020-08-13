@@ -43,3 +43,6 @@ event.clientX : 表示滑鼠點擊水平位置, 也可以用event.x
 event.cancelBubble = true;
 or
 event.stopPropagation();
+
+// data-(自訂的名稱)
+$().data("自訂的名稱")
