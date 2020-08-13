@@ -1,0 +1,45 @@
+// 複習！！！
+
+// 替代屬性
+$("#aTextField").prop("value","xyz");
+或是
+$("#aTextField").val("xyz");
+--> 意思一樣
+
+// CSS
+$("#text").css("font-size","2em");
+
+// 多項
+$("#text").css({
+    "font-size":"2em",
+    "color":"red"
+});
+
+// 配合CSS的class
+$("#text").removeClass("");  .addClase("");
+
+// Event
+// click
+<div id="div1" onclick="funcName"></div>
+or
+document.getElementById("div1").onclick = function () {};
+or
+$("#div1").click(function () {});
+or
+$("#div1").on("click",function () {});
+
+// hover
+$("#div1").mouseenter(function () {});
+or
+$("#div1").on("mouseover",function () {});
+
+// leave
+$("#div1").on("mouseleave", function () {});
+
+// event.clientX
+event.clientX : 表示滑鼠點擊水平位置, 也可以用event.x
+
+// 停止事件擴散
+event.cancelBubble = true;
+or
+event.stopPropagation();
